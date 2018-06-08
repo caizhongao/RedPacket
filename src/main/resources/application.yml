@@ -1,0 +1,15 @@
+server:
+  port: 55544
+  context-path: /
+
+config:  
+  redis:
+    timeout: 2000
+    maxActive: 300
+    maxIdle: 100
+    maxWait: 1000
+    testOnBorrow: true
+    testWhileIdle: true
+    port: 6379
+    host: 10.1.5.101    
+    password:  
